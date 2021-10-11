@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useState, useEffect, useRef } from "react";
 import Card from "./Card";
+import "./Deck.css";
 
 const BASE_URL = "http://deckofcardsapi.com/api/deck";
 
@@ -64,7 +65,7 @@ const Deck = () => {
 
   return (
     <div className="Deck">
-      <button onClick={toggleAutoDraw}>
+      <button className="Deck-btn" onClick={toggleAutoDraw}>
         {autoDraw ? "Stop drawing" : "Draw cards"}
       </button>
       <div className="Deck-cardarea">
