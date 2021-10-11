@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Deck of Cards
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React app that draws cards from a deck of cards using the [Deck of Cards](http://deckofcardsapi.com/) API.
 
 ## Available Scripts
 
